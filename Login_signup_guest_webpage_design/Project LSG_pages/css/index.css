@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("../images/l.jpg");
+  background-size: cover;
+}
+.login-box{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  background: none;
+  background-repeat: no-repeat;
+  width: 100%;
+  border: 2px solid #0eebf2;
+  border-color: none;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 12px 0;
+  height: 108px;
+}
+input[type="button"]:hover
+{
+  cursor: pointer;
+  background: #0eebf2;
+}
